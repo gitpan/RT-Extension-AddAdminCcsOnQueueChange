@@ -1,10 +1,24 @@
-name: RT-Extension-AddAdminCcsOnQueueChange
-version: 0.01
-abstract: RT Extension-AddAdminCcsOnQueueChange Extension
-license: unknown
+---
+abstract: 'On queue change, adds queue AdminCcs as ticket AdminCcs'
+author:
+  - 'Best Practical Solutions, LLC.'
+  - 'Kevin Riggle <kevinr@bestpractical.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: RT-Extension-AddAdminCcsOnQueueChange
 no_index:
   directory:
     - etc
     - inc
-generated_by: Module::Install version 0.36
+    - xt
+resources:
+  license: http://opensource.org/licenses/gpl-license.php
+version: 0.03
