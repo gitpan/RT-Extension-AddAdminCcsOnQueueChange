@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,28 +14,32 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 36c6df5ac334cdbdf5bd94524197122d7120a1d2 MANIFEST
-SHA1 b32c5cff321f028cd7009f5b48126542fc7e7a10 META.yml
-SHA1 55f2450cffd38f1c3608a3c2f8308e76fb695b15 Makefile.PL
-SHA1 64818d67fe45b7f81ab1c8d5598df8de0bc05e99 README
+SHA1 ccb6b3c9e7107deaa8ea552f37f6131c776af7dd MANIFEST
+SHA1 a46dbe550c2de70e1e0c9af812cdf522db394fff META.yml
+SHA1 26fb423dc367009c68dba6271edbad06aa138e95 Makefile.PL
+SHA1 5857ee26d178a85cefc79dcf30f89222fae1ff0f README
 SHA1 b3b9e6a66634006aecbf55a6aa5c8fdb41f14e74 etc/initialdata
-SHA1 7b4ae50ebac72d20761171c4c2b50c206344ea40 inc/Module/Install.pm
-SHA1 d9fe55a427fe2fd75b5029afeeaa61b592e07f79 inc/Module/Install/Base.pm
-SHA1 62d3922826d9f89f20c185e7031ac8f028504745 inc/Module/Install/Can.pm
-SHA1 dc809f64fb70a26b069a36f8d3d353d520dbb7e1 inc/Module/Install/Fetch.pm
-SHA1 73ab91490a628452cc140db72ef9d13a1326d211 inc/Module/Install/Makefile.pm
-SHA1 8ce3f2b414e4617e6233dd4ba10830f8c5d672ec inc/Module/Install/Metadata.pm
-SHA1 418db5f4bbc13f0ed516f25a7ea4e1dad55021af inc/Module/Install/RTx.pm
-SHA1 449e998bb26b566ce352948ae08906f3448ebcba inc/Module/Install/RTx/Factory.pm
-SHA1 3b0acd2eeac93a0afe48120f5648f0db362e5bbf inc/Module/Install/Win32.pm
-SHA1 f08924f051e623f8e09fa6a121993c4a9cf7d9eb inc/Module/Install/WriteAll.pm
+SHA1 9b5001bfa9cf8607b3b3935284d9253e0391c9f1 inc/Module/Install.pm
+SHA1 cab0e564f9bdf658535f683aa197157e06d0dcea inc/Module/Install/Base.pm
+SHA1 a1559b5b3b40f68efbbd256f4fef85970891b3ae inc/Module/Install/Can.pm
+SHA1 f15c1ba85f6d52e70c48c64bf0752c90a4ad66f9 inc/Module/Install/Fetch.pm
+SHA1 d44d96acd20793306dd201030c688e2a7d3083ee inc/Module/Install/Include.pm
+SHA1 eb48df8bafd07c6a862126d9b274df42b4395742 inc/Module/Install/Makefile.pm
+SHA1 95c73873c6c3cb7024614c225c53863e1e90c134 inc/Module/Install/Metadata.pm
+SHA1 6e010ba20a9d0ae23d8d0ff516868c1e571c2d44 inc/Module/Install/RTx.pm
+SHA1 3fdf4c0cffdb1a2e23e5cd26bf95be553f1f9590 inc/Module/Install/RTx/Runtime.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 f8b2ae3386f6ba26c33408968a953d450842eade inc/Module/Install/Win32.pm
+SHA1 f302bc703d76299cff243e5b44cecd61aac27b76 inc/Module/Install/WriteAll.pm
+SHA1 4e09b598c2626e08cec2bed5e981492fa9e90967 inc/YAML/Tiny.pm
+SHA1 034d0f3a7401dae4be3eee279258181f51a4ad81 inc/unicore/Name.pm
 SHA1 288330baff0824b406ba90eb9ecdbc6829fa1d60 lib/RT/Action/AddQueueAdminCcs.pm
-SHA1 8406f0c856da2eb39cc5608a8ac5aa7d8dd9fcc6 lib/RT/Extension/AddAdminCcsOnQueueChange.pm
+SHA1 384dd328c176f392c5208f314c039b42d8e02ef5 lib/RT/Extension/AddAdminCcsOnQueueChange.pm
 SHA1 85d08ad24ed82fd70a7403a6e79c5b93e6f2f200 xt/01-require.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1
 
-iD8DBQFN1BYgHdv9ZfNcOAcRAgaTAJ43y/ayfHGaXYm0n3yKv56MvhnF5gCggcZJ
-UXaJvugVih4UE7xcF0TiS2g=
-=l1zb
+iEYEARECAAYFAlSPXXcACgkQMflWJZZAbqAyEACcCOU3rj5ElN545zAD8DPJXUEv
+4GoAninMaaZ8/vTfxKsStJXh9tnQm0sF
+=+3vK
 -----END PGP SIGNATURE-----
